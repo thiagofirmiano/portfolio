@@ -33,7 +33,7 @@ export const Portfolio: React.FC = () => {
             <Carousel.Item interval={3000}>
               <ImgCarousel
                 src={Linkedin}
-                alt="Instagram Social Mídia"
+                alt="Instagram rede social"
               />
               <TextCarousel>J
               </TextCarousel>
