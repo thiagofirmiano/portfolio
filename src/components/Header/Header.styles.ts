@@ -31,7 +31,7 @@ export const Bar = styled("nav")({
       padding: "3% 0",
     },
     "& a": {
-      fontSize: "20px",
+      fontSize: "20px", 
     },
   },
 });
@@ -47,7 +47,7 @@ export const Link = styled(Typography)({
     color: "#FDCD2F",
     fontWeight: "bold",
     borderBottom: "3px solid #FDCD2F"
-  }, 
+  },
 });
 
 export const Imglogo = styled("img")({

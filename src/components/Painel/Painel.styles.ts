@@ -2,6 +2,9 @@ import { styled } from "@mui/system";
 import { Typography } from "@mui/material";
 
 export const Main = styled("div")({
+  display: "flex",
+  justifyContent: "flex-end",
+  flexDirection: "row",
   alignItems: "center",
   margin: "5% 0",
   "@media only screen and (min-width: 360px) and (max-width: 539px)": {
@@ -13,13 +16,54 @@ export const Main = styled("div")({
       justifyContent: "center",
     },
   },
+  "@media only screen and (min-width: 540px) and (max-width: 801px)": {
+    "&": {
+      margin: "10% 0",
+      flexDirection: "column-reverse",
+    },
+  },
+  "@media only screen and (min-width: 802px) and (max-width: 912px)": {
+    "&": {
+      padding: "7% 0",
+      flexDirection: "row",
+      justifyContent: "center",
+    },
+  },
+});
+
+export const DivText = styled("div")({
+  width: "40%",
+  "@media only screen and (min-width: 360px) and (max-width: 539px)": {
+    "&": {
+      width: "90%",
+      margin: "0",
+    },
+  },
+  "@media only screen and (min-width: 540px) and (max-width: 800px)": {
+    "&": {
+      width: "90%",
+      margin: "0",
+    },
+  },
+  "@media only screen and (min-width: 801px) and (max-width: 1024px)": {
+    "&": {
+      width: "60%",
+      margin: "0 0 0 2%",
+    },
+  },
+  "@media only screen and (min-width: 1025px) and (max-width: 2048px)": {
+    "&": {
+      width: "60%",
+      margin: "0 0 0 7%",
+    },
+  },
 });
 
 export const Text = styled(Typography)({
   fontFamily: "Inter, sans-serif",
   fontSize: "42px",
   fontWeight: "bold",
-  color: "#FDCD2F",
+  color: "#F0E68C",
   "@media only screen and (min-width: 360px) and (max-width: 539px)": {
     "&": {
       width: "100%",
@@ -31,7 +75,7 @@ export const Text = styled(Typography)({
       fontSize: "32px",
     },
   },
-  "@media only screen and (min-width: 801px) and (max-width: 1024px)": {
+  "@media only screen and (min-width: 100px) and (max-width: 100px)": {
     "&": {
       fontSize: "32px",
     },
@@ -42,24 +86,6 @@ export const Text = styled(Typography)({
     },
   },
 });
-
-export const Sub = styled(Typography)({
-  fontFamily: "Inter, sans-serif",
-  fontSize: "22px",
-  "@media only screen and (min-width: 360px) and (max-width: 539px)": {
-    "&": {
-      fontSize: "14px",
-      fontWeight: "bold",
-    },
-  },
-  "@media only screen and (min-width: 768px) and (max-width: 912px)": {
-    "&": {
-      fontSize: "20px",
-      fontWeight: "bold",
-    },
-  },
-});
-
 export const ImgBanner = styled("img")({
   margin: "0 4% 0 2%",
   "@media only screen and (min-width: 360px) and (max-width: 400px)": {

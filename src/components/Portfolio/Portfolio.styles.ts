@@ -2,9 +2,10 @@ import { styled } from "@mui/system";
 import { Typography } from "@mui/material";
 
 export const MainPortfolio = styled("div")({
+  
   "@media only screen and (min-width: 360px) and (max-width: 539px)": {
     "&": {
-      display: "flex",
+      display: "flex", 
       justifyContent: "center",
       flexDirection: "column",
       width: "100%",
@@ -63,7 +64,7 @@ export const TextTitulo = styled(Typography)({
   "@media only screen and (min-width: 768px) and (max-width: 912px)": {
     "&": {
       fontSize: "42px",
-    }, 
+    },
   },
 });
 
@@ -95,5 +96,5 @@ export const ImgCarousel = styled("img")({
     "&": {
       width: "100%",
     },
-  }, 
+  },
 });

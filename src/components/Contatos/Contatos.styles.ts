@@ -1,7 +1,7 @@
 import { styled } from "@mui/system";
 import { Typography } from "@mui/material";
 
-export const MContatos = styled("div")({
+export const Main = styled("div")({
   display: "flex",
   justifyContent: "center",
   flexDirection: "column",
@@ -9,7 +9,7 @@ export const MContatos = styled("div")({
   padding: "0 0 5% 0",
 });
 
-export const Main = styled("div")({
+export const MContatos = styled("div")({
   width: "40%",
   display: "flex",
   justifyContent: "space-around",
@@ -53,7 +53,7 @@ export const Img = styled("img")({
   "@media only screen and (min-width: 540px)": {
     "&": {
       width: "90%",
-    }, 
+    },
   },
   "@media only screen and (min-width: 768px) and (max-width: 912px)": {
     "&": {

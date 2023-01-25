@@ -1,9 +1,7 @@
 import { styled } from "@mui/system";
 import { Typography } from "@mui/material";
 
-export const MainFooter = styled("div")({
-    // border: "1px solid red",
-  });
+export const MainFooter = styled("div")({});
 
 export const TextFooter = styled(Typography)({
   fontFamily: "Inter, sans-serif", 

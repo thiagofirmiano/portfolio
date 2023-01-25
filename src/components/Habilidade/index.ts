@@ -1,0 +1,1 @@
+export { Habilidade } from "./Habilidade";

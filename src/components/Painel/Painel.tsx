@@ -1,14 +1,12 @@
 import React from "react";
-import { Main, Sub, Text } from "./Painel.styles";
-
+import { Main, Text, DivText } from "./Painel.styles";
 
 export const Painel: React.FC = () => {
   return (
     <Main>
-      <Text>
-        <Text>DESENVOLVEDOR FRONT-END</Text>
-        <Text>DESENVOLVIMENTO WEB</Text>
-      </Text>
+      <DivText>
+        <Text>Bem vindo ao meu Portfólio</Text> 
+        </DivText>
     </Main>
   );
-} 
+}  
