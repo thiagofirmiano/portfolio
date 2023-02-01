@@ -34,7 +34,7 @@ export const Habilidade: React.FC = () => {
 
         <CardHabilidade>
           <SubTituloCard>---------------------------</SubTituloCard>
-          <SubTituloCard>Conhecimentos Específicos</SubTituloCard>
+          <SubTituloCard>Conhecimento Específico</SubTituloCard>
           <SubTituloCard>---------------------------</SubTituloCard>
         </CardHabilidade>
       </DivCards>

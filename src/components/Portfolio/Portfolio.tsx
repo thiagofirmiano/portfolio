@@ -14,7 +14,7 @@ export const Portfolio: React.FC = () => {
       <DivCarousel>
         <Cards>
           <Carousel indicators={false} controls={false}> 
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={500}>
               <ImgCarousel
                 src={Linkedin}
                 alt="Informações do Linkdin"
@@ -24,7 +24,7 @@ export const Portfolio: React.FC = () => {
                 O diferencial é que, nessa rede social, essas interações podem influenciar a carreira, positiva e negativamente.
               </TextCarousel>
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={500}>
               <ImgCarousel
                 src={Facebook}
                 alt="Informações do Facebook "
@@ -34,7 +34,7 @@ export const Portfolio: React.FC = () => {
                 consumir e compartilhar conteúdos e muito mais.
               </TextCarousel>
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={500}>
               <ImgCarousel
                 src={Whatsapp}
                 alt="Informações do Whatsapp"
